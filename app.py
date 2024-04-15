@@ -40,7 +40,7 @@ def predict_font(image):
 
     # Check confidence if within range
     confidence = prediction[0][predicted_font_index]  # Assuming first element is class probabilities
-    if confidence < 0.9:  # Adjust this threshold based on your model's performance
+    if confidence < 0.9345:  # Adjust this threshold based on your model's performance
         predicted_font = "Font not found "
 
     return predicted_font
@@ -60,7 +60,5 @@ if uploaded_image is not None:
         # Perform prediction and display the result
         predicted_font = predict_font(image)
         st.write("Predicted Font:", predicted_font)
-
-
 
 
