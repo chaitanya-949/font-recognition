@@ -36,7 +36,7 @@ def predict_font(image):
     if predicted_font_index < len(font_names):
         predicted_font = font_names[predicted_font_index]
     else:
-        predicted_font = "Font not found due to less computational power unable to train on all fonts"
+        predicted_font = "Font not found "
 
     # Check confidence if within range
     confidence = prediction[0][predicted_font_index]  # Assuming first element is class probabilities
