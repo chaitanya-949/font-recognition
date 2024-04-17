@@ -58,3 +58,4 @@ streamlit run app.py
 
 Upload an image containing text and click the "Predict Font" button to see the predicted font.
 
+##  NOTE : DUE to training on less and similar data it sometimes doesn't give accuratley
