@@ -1,6 +1,9 @@
 
 # Font Detection with Convolutional Neural Networks
 
+# NOTE
+The model's accuracy may be limited for unfamiliar data due to similar training examples.For best results, use images similar to those the model was trained on.
+# 
 This project aims to develop a font detection system using Convolutional Neural Networks (CNNs). The system takes images of text written in various fonts as input and predicts the font used in the text.
 
 Installation
@@ -58,4 +61,4 @@ streamlit run app.py
 
 Upload an image containing text and click the "Predict Font" button to see the predicted font.
 
-##  NOTE : DUE to training on less and similar data it sometimes doesn't give accuratley
+
